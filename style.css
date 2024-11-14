@@ -5,23 +5,6 @@ body {
 
 #div-btn-container {
     background-color: #1e1e1e;
-}
-
-input {
-    background-color: #333;
-    color: #e0e0e0;
-    border: 1px solid #444;
-}
-
-form {
-    background-color: #1e1e1e;
-}
-
-#text {
-    color: #e0e0e0;
-}
-
-#div-btn-container {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -30,10 +13,14 @@ form {
 }
 
 input {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #444;
     z-index: 10;
 }
 
 form {
+    background-color: #1e1e1e;
     position: absolute;
     top: 0;
     left: 0;
@@ -42,7 +29,8 @@ form {
 }
 
 #text {
+    color: #e0e0e0;
     position: absolute;
-    color: black;
     font-size: 30px;
+    transition: left 0.5s ease, top 0.5s ease;
 }
