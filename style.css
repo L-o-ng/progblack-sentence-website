@@ -1,6 +1,7 @@
 #div-text-container {
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
     float: initial;
 }
 
@@ -11,4 +12,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#text {
+    position: absolute;
+    color: black;
+    font-size: 30px;
 }
